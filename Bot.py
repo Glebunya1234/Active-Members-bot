@@ -5,10 +5,10 @@ from discord.ui import Button, View
 import os
 from dotenv import load_dotenv, find_dotenv
 
-# Загрузка переменных окружения из файла .env
+
 load_dotenv(find_dotenv())
 
-# Получение токена из переменной окружения
+
 TOKEN = os.getenv('TOKEN')
 
 text_channel_ids = {}
