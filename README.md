@@ -1,95 +1,140 @@
-## Active-Members-bot
-_**Bot, which informs server participants about the activity of other participants in the participant’s voice channels and allows：**_
-- _**Assign a specific text channel for bot notifications**_
- - _**Quick view of all text channel ID**_
- - _**Quick view of a specific text channel ID**_
+<table>
+ 
+  <tr>
+   <td>
+    <p align="center">
+     <img src="BotLogo.png" alt="LogoBot">
+    </p>
+   </td>
+  </tr>
 
-##
-
-
-
-  <p align="center">
-  
-  </p>
- <p align="center">
-  <a href="https://note-cloud-five.vercel.app/">
-      <img src="assets/NoteClound-09-02-20242.png" alt="NoteClound Logo">
-  </a>
-</p>
-
-
-     
+ 
+<tr>
+ <td>
   <p align='center'>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-090909?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="NextJS" src="https://img.shields.io/badge/-Next js-090909?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-090909?style=for-the-badge&logo=firebase&logoColor=white">
-  <img alt="TailwindCSS" src="https://img.shields.io/badge/-TailwindCSS-090909?style=for-the-badge&logo=tailwindcss&logoColor=white">
-  <img alt="FramerMotion" src="https://img.shields.io/badge/-Framer Motion-090909?style=for-the-badge&logo=Framer&logoColor=white">
-  <img alt="DaisyUI" src="https://img.shields.io/badge/-daisy ui-090909?style=for-the-badge&logo=daisyui&logoColor=white">
-</p>
+   <img alt="Python" src="https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=white">
+   <img alt="Discord.py" src="https://img.shields.io/badge/-discord.py-090909?style=for-the-badge&logo=discord&logoColor=white">
+  </p>
+ </td>
+</tr>
 
-<br/>
-The NoteCloud - project is a web application designed to simplify task management, providing users with a platform to create, edit and delete scheduled tasks. With an intuitive, simple interface and features, NoteCloud allows individuals to organize their daily activities.
+</table>
 
-<p>Main features:</p>
+<table>
+  <tr>
+    <td colspan="2">
+      <h3 align='center'>Bot, which informs server participants about the activity of other participants in the participant’s voice channels and allows：</h3>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+       
+ > - _**Quick view of all text channel ID**_
+    </td>
+    <td>
+    
+  > - _**Quick view of a specific text channel ID**_
+    </td>
+  </tr>
+  
+   <tr>
+    <td>
+       
+  > - _**Assign a specific text channel for bot notifications**_
+    </td>
+    <td>
+    
+  > - _**And more...**_
+    </td>
+  </tr>
+</table>
 
-- `Create tasks` Easily create new priority tasks and place them in separate task blocks.
-- `Editing tasks` Change the task name or update its priority, and if necessary, rename the block in which the task group is located.
-- `Delete tasks` Easily delete tasks that are no longer relevant or completed, or delete their entire block at once.
-- `User-friendly interface` Thanks to the DaisyUI user interface library, an intuitive design has been developed to make task management easy for users of all levels.
-<br/>
-<p align="center">
-  <img src="assets/Frame 1.png" alt="NoteClound Logo">
-</p>
+<table style="width: 100%; max-width: 100%;">
+  <tr>
+    <td style="width: 100%; max-width: 100%;">
 
- <h6 align="right">*Old version of the project</h6>
-## 🔧Installation
+   ## 🔧Installationㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+<tr>
+  <td>
+ 	 1. Cloning the repository
+  </td>
+</tr>
 
-1. Cloning the repository
-
+<tr>
+  <td>
+<br>
+			
 ```bash
-git clone https://github.com/Glebunya1234/NoteCloud.git
+git clone https://github.com/Glebunya1234/Active-Members-bot.git
 ```
 
-2. Install dependencies
+  </td>
+</tr>
+
+<tr>
+  <td>
+ 	 2. Install packages
+  </td>
+</tr>
+
+<tr>
+  <td>
+<br>
 
 ```bash
-yarn install
+pip install discord.py
 ```
+```bash
+pip install python-dotenv
+```
+  </td>
+</tr>
 
-3. Environment setup
+<tr>
+  <td>
+ 	 3. Environment setup
+  </td>
+</tr>
 
-You need to get the firebase keys and create an env file by defining the following variables:
+<tr>
+  <td>
+		 <h6> You need to get a token from  <a href="https://discord.com/developers/applications/">https://discord.com/developers/applications</a>  and create an `.env` file by defining the following variable:</h6>
+
+	
+```bash
+TOKEN=******
+```
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+ 	 4. Bot launch
+  </td>
+</tr>
+
+<tr>
+  <td>
+<br>
 
 ```bash
-NEXT_PUBLIC_APIKEY=******
-NEXT_PUBLIC_AUTHDOMAIN=******
-NEXT_PUBLIC_PROJECTID=******
-NEXT_PUBLIC_STORAGEBUCKET=******
-NEXT_PUBLIC_MESSAGINGSENDERID=******
-NEXT_PUBLIC_APPID=******
-NEXT_PUBLIC_MEASUREMENTID=******
-```
-4. Create collections
-   
-You need to create two collections in your Firebase with the following names:
-
-```bash
-collection-todos 
+python bot.py
 ```
 
-```bash
-collection-users
-```
+  </td>
+</tr>
 
+<tr>
+  <td>
+ 	  	 
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=14&duration=2000&pause=5500&color=858C9C&center=true&vCenter=true&random=false&width=1200&separator=%3C&lines=Attention%2C+receiving+a+token+will+not+be+enough;+in+addition+to+the+token%2C+you+must+configure+your+bot+on+the+site+listed+above+and+add+it+to+your+server)](https://git.io/typing-svg)
 
+  </td>
+</tr>
 
-5. Project launch
-```bash
-yarn dev
-```
-
-
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</table>
 
