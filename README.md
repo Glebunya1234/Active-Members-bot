@@ -3,7 +3,7 @@
   <tr>
    <td>
     <p align="center">
-     <img src="BotLogo.png" alt="LogoBot">
+     <img src="BotLogo1.png" alt="LogoBot">
     </p>
    </td>
   </tr>
