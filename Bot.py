@@ -90,7 +90,7 @@ async def Bot_Help(ctx):
         "> _**```!GetIdAllChannel```**_"
         "**_`Will list all channel IDs and their names`_**"
         
-        "\n\n>_**Team,to get a specific ID of the text channel to which the command will be sent:**_\n"
+        "\n\n> _**Team,to get a specific ID of the text channel to which the command will be sent:**_\n"
         "> _**```!GetIdThisChannel```**_"
         "**_`Will display the ID and name, for example: Text channel Main, ID: 12313123123` _**"
     )
